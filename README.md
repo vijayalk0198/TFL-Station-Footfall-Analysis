@@ -38,3 +38,10 @@ To categorize stations, a scoring system was carefully designed, supported by an
 
 4. Station Dashboard
 To facilitate deeper analysis, a Station Stats Dashboard was created. This interactive dashboard allows users to select any station and view its individual metrics, historical footfall patterns, and classification details.
+
+## Findings 
+1.	**Dramatic COVID-19 Impact and Recovery Pattern** - The network experienced a severe 62% drop in footfall during 2020, falling from 3.17 billion to 1.21 billion passengers. Recovery has been steady but incomplete, with 2024 figures (2.72 billion) still 14% below pre-pandemic levels. 
+2.	**Zone Distribution Reveals Central London Dominance** - Nearly half (45.52%) of all network usage occurs in Zone 1, with Zone 2 accounting for an additional 27.73%. This concentrated usage pattern underscores the continued importance of central London 
+3.	**Elizabeth Line Integration Transforming Key Stations** - Stations connected to the Elizabeth Line show exceptional growth, with Tottenham Court Road (169% YoY growth in 2022) and Farringdon (156% YoY growth in 2022) experiencing dramatic increases in footfall.
+4.	**Changing Weekly Usage Patterns** - Thursday has emerged as the busiest day (16.88K average footfall), while Monday shows relatively lower usage (13.52K), suggesting a mid-week concentration of office attendance. This indicates a lasting change in work patterns post-pandemic. 
+5.	**Stratford as a Zone 2 Outlier** - Despite being outside Zone 1, Stratford ranks as the 5th busiest station with 131,097 daily passengers, outperforming many central London hubs. With a strong Z-score of 0.62, it demonstrates the growing importance of strategic outer hubs and the successful development of East London as a major transport and commercial centre.
