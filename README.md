@@ -20,3 +20,22 @@ Complementary metadata about each station was collected from a [Kaggle dataset] 
 - Time Series Trend Analysis – Examining seasonal patterns and long-term usage shifts across years.
 - Footfall Volatility & Seasonality Metrics – Measuring variability and dependency on seasonal factors to classify station behavior.
 
+### Methodology
+1. Data Cleaning & Transformation
+Once the Excel CSV files were consolidated, the dataset was loaded into Power BI. Using the Power Query Editor, data types were validated, and missing values, duplicates, and inconsistencies were addressed. This step ensured the data was clean and ready for analysis, laying the foundation for accurate insights.
+
+2. Station Usage Overview
+The first step in analysis was to visualize station usage patterns through a set of interactive dashboards in Power BI. Key metrics such as average daily footfall, monthly usage breakdowns, year-over-year (YoY) calculations, and identification of the busiest stations and peak days/months were included. This provided a comprehensive understanding of how footfall varied over time and highlighted seasonal trends within the data.
+
+3. Station Segmentation
+To categorize stations, a scoring system was carefully designed, supported by analytical concepts. Five main metrics were considered:
+- Average daily footfall
+- Average YoY growth
+- Day dependency index
+- Month dependency index
+- Footfall volatility
+
+Each of these metrics was calculated for every station. To ensure consistency and comparability across stations, Z-score normalization was implemented. This method was chosen because Z-scores standardize each metric, removing the influence of scale differences and making it easier to compare stations with varying footfall levels. Based on the individual Z-scores, a composite Z-score was computed for each station. Stations were then assigned labels according to the range in which their composite Z-scores fell, classifying them into distinct groups.
+
+4. Station Dashboard
+To facilitate deeper analysis, a Station Stats Dashboard was created. This interactive dashboard allows users to select any station and view its individual metrics, historical footfall patterns, and classification details.
