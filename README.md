@@ -41,6 +41,8 @@ Each of these metrics was calculated for every station. To ensure consistency an
 4. Station Dashboard
 To facilitate deeper analysis, a Station Stats Dashboard was created. This interactive dashboard allows users to select any station and view its individual metrics, historical footfall patterns, and classification details.
 [img/StationStatsDashboard.png]
+![Alt text](img/StationStatsDashboard.png)
+
 
 ## Findings 
 1.	**Dramatic COVID-19 Impact and Recovery Pattern** - The network experienced a severe 62% drop in footfall during 2020, falling from 3.17 billion to 1.21 billion passengers. Recovery has been steady but incomplete, with 2024 figures (2.72 billion) still 14% below pre-pandemic levels. 
