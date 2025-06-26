@@ -21,14 +21,14 @@ Complementary metadata about each station was collected from a [Kaggle dataset](
 - Footfall Volatility & Seasonality Metrics – Measuring variability and dependency on seasonal factors to classify station behavior.
 
 ## Methodology
-1. Data Cleaning & Transformation
+1. **Data Cleaning & Transformation**
 Once the Excel CSV files were consolidated, the dataset was loaded into Power BI. Using the Power Query Editor, data types were validated, and missing values, duplicates, and inconsistencies were addressed. This step ensured the data was clean and ready for analysis, laying the foundation for accurate insights.
 
-2. Station Usage Overview
+2. **Station Usage Overview**
 The first step in analysis was to visualize station usage patterns through a set of interactive dashboards in Power BI. Key metrics such as average daily footfall, monthly usage breakdowns, year-over-year (YoY) calculations, and identification of the busiest stations and peak days/months were included. This provided a comprehensive understanding of how footfall varied over time and highlighted seasonal trends within the data.
 ![Alt text](img/yoy.png)
 
-4. Station Segmentation
+4. **Station Segmentation**
 To categorize stations, a scoring system was carefully designed, supported by analytical concepts. Five main metrics were considered:
 - Average daily footfall
 - Average YoY growth
@@ -40,7 +40,7 @@ Each of these metrics was calculated for every station. To ensure consistency an
 ![Alt text](img/Z_AvgDailyFootfall.png)
 
 
-4. Station Dashboard
+4. **Station Dashboard**
 To facilitate deeper analysis, a Station Stats Dashboard was created. This interactive dashboard allows users to select any station and view its individual metrics, historical footfall patterns, and classification details.
 ![Alt text](img/StationStatsDashboard.png)
 
